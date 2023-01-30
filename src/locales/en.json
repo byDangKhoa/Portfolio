@@ -1,0 +1,18 @@
+{
+  "home": "Home",
+  "name": "Name",
+  "about": "About me",
+  "experience": "Experience",
+  "projects": "Project",
+  "iam": "I am",
+  "knowme": "Know me more",
+  "skills": "Technical skills",
+  "duty": "duties & responsibilities",
+  "frontend": "Frontend Developer",
+  "junior": "Junior frontend developer",
+  "skillDescription": "Front-end Engineer with 1 year of experience in developing and implementing responsive, user-friendly websites and web applications.Skilled in utilizing modern front-end technologies such as React, Nextjs,Antd and Tailwind to deliver exceptional user experiences. Responsible for bug fixing and maintaining current projects.",
+  "techused": "Technologies used",
+  "des1": "Developed web application using ReactJs, NextJs",
+  "des2": "Maintenance and troubleshooting of client's websites to ensure smooth performance and user satisfaction",
+  "erades": "<Also>My first real project.<p/> <br/> <p>I learnt alot from this project. I also worked in a team and knew how to communicate with backend developers.</p>"
+}
