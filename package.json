@@ -2,6 +2,7 @@
   "name": "react-2022-portfolio",
   "private": false,
   "version": "0.0.0",
+  "homepage": "https://github.com/byDangKhoa/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
