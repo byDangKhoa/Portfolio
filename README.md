@@ -1,3 +1,4 @@
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=byDangKhoa&show_icons=true&theme=radical)
 # Vite react & Tailwind portfolio. 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/96df2662-043f-4c04-b08d-2dce8c5e7eab/deploy-status)](https://app.netlify.com/sites/felixdev/deploys)
@@ -34,4 +35,4 @@ Builds the app for production to the `dist` folder.<br>
 ### Animations:
 - [Framer Motion](https://www.framer.com/motion/)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=byDangKhoa&show_icons=true&theme=radical)
+
