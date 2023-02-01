@@ -33,3 +33,7 @@ Builds the app for production to the `dist` folder.<br>
 
 ### Animations:
 - [Framer Motion](https://www.framer.com/motion/)
+
+### Stats:
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=byDangKhoa&show_icons=true&theme=radical)
+
