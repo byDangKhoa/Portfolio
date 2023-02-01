@@ -1,6 +1,6 @@
 # Vite react & Tailwind portfolio.
 
-Demo : https://portfolio-khoa-4nl3ohqo4-tranledangkhoa91-gmailcom.vercel.app/
+Demo : https://portfolio-bydangkhoa91.vercel.app/
 
 ## Steps to run:
 
