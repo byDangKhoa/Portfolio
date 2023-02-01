@@ -11,8 +11,9 @@
   "duty": "Bổn phận và trách nhiệm",
   "junior": "Junior frontend developer",
   "techused": "Công nghệ sử dụng",
-  "skillDescription": "Tôi là lập trình viên Front-end có 1 năm kinh nghiệm phát triển responsive và user-friendly web và web-app.Tôi cũng có khả năng fix bug cũng như bảo trì những dự án được giao. Tôi luôn hoàn thành tốt các task được giao dù là làm việc độc lập hay làm theo team.",
+  "skillDescription": "Tôi là lập trình viên Front-end có 1 năm kinh nghiệm phát triển responsive và user-friendly web và web-app.Tôi cũng có khả năng fix bug cũng như bảo trì những dự án được giao và sử dụng các công nghệ mới như Tailwindcss, NextJs, Antd... để đem đến cho khách hàng những trải nghiệm tốt nhất. Tôi luôn hoàn thành tốt các task được giao dù là làm việc độc lập hay làm theo team.",
   "des1": "Phát triển trang web sử dụng Reactjs và NextJs",
   "des2": "Bảo trì, sửa chữa cũng như cập nhật các tính năng theo yêu cầu của khách hàng",
-  "erades": "<Also>Dự án thực tế đầu tiên của tôi.<p/> <br/> <p>Tôi đã học được rất nhiều thứ từ dự ăn náy. Tôi cũng có cơ hội làm việc theo nhóm và biết cách để giao tiếp để làm việc với các lập trình viên backend.</p>"
+  "erades": "<Also>Dự án thực tế đầu tiên của tôi.<p/> <br/> <p>Tôi đã học được rất nhiều thứ từ dự ăn náy. Tôi cũng có cơ hội làm việc theo nhóm và biết cách để giao tiếp để làm việc với các lập trình viên backend.</p>",
+  "eraEducation": "Giáo dục Era"
 }
