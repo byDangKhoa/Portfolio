@@ -23,7 +23,7 @@ const projects = [
     id: 2,
     image: images.redditImage,
     heading: 'Reddit Clone',
-    description: 'A simple clone of reddit page, using typescript and chakra-ui to build',
+    description: 'redditDescription',
     websiteLink: 'https://reddit-one-rose.vercel.app/',
     githubLink: 'https://github.com/byDangKhoa/reddit',
     firebase: true,

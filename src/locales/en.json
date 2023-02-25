@@ -15,5 +15,6 @@
   "des1": "Developed web application using ReactJs, NextJs",
   "des2": "Maintenance and troubleshooting of client's websites to ensure smooth performance and user satisfaction",
   "erades": "<Also>My first real project.<p/> <br/> <p>I learnt alot from this project. I also worked in a team and knew how to communicate with backend developers.</p>",
-  "eraEducation": "Era Education"
+  "eraEducation": "Era Education",
+  "redditDescription": "A simple clone of reddit page, using typescript and chakra-ui to build"
 }
