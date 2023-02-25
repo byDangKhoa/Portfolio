@@ -87,42 +87,6 @@ const TabSection = () => {
             <h2 className="text-2xl font-semibold mb-2">Frontend Developer</h2>
             <p className="text-base font-normal text-neutral-700 dark:text-neutral-300">{t('skillDescription')}</p>
             <br />
-            {/* <h3 className='font-semibold text-xl mb-2'>Certifications 📝:</h3>
-            <ul className='list-inside list-disc text-neutral-700 dark:text-neutral-300'>
-              <li>
-                <a
-                  href='https://app.hubspot.com/academy/achievements/9z322p95/en/1/felix-macaspac/hubspot-marketing-software'
-                  className='underline'
-                  target='_blank'>
-                  Hubspot Marketing Software
-                  <span className='ml-1 inline-flex align-middle'>
-                    <ExternalLinkIcon className='h-5 w-5' />
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href='https://app.hubspot.com/academy/achievements/clt3bnwb/en/1/felix-macaspac/hubspot-cms-for-developers'
-                  className='underline'
-                  target='_blank'>
-                  Hubspot CMS for Developers
-                </a>
-                <span className='ml-1 inline-flex align-middle'>
-                  <ExternalLinkIcon className='h-5 w-5' />
-                </span>
-              </li>
-              <li>
-                <a
-                  href='https://app.hubspot.com/academy/achievements/4nsfl59x/en/1/felix-macaspac/hubspot-cms-for-marketers'
-                  className='underline'
-                  target='_blank'>
-                  Hubspot CMS for Marketers
-                </a>
-                <span className='ml-1 inline-flex align-middle'>
-                  <ExternalLinkIcon className='h-5 w-5' />
-                </span>
-              </li>
-            </ul> */}
           </motion.div>
 
           <motion.div

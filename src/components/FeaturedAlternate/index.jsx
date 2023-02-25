@@ -18,45 +18,18 @@ const projects = [
     firebase: true,
     i18n: true,
     redux: true
+  },
+  {
+    id: 2,
+    image: images.redditImage,
+    heading: 'Reddit Clone',
+    description: 'A simple clone of reddit page, using typescript and chakra-ui to build',
+    websiteLink: 'https://reddit-one-rose.vercel.app/',
+    githubLink: 'https://github.com/byDangKhoa/reddit',
+    firebase: true,
+    nextjs: true,
+    chakra: true
   }
-  // {
-  //   id: 2,
-  //   image: images.shortlyImage,
-  //   heading: 'Shortly',
-  //   description:
-  //     'One of my frontendmentor.io challenge projects! Had a good one working with this one and enhance my JavaScript and CSS skills.',
-  //   websiteLink: 'https://shorten-app.netlify.app/',
-  //   githubLink: 'https://github.com/felixmacaspac/fem-url-shortener-website',
-  //   // techno
-  //   html: true,
-  //   css: true,
-  //   javascript: true
-  // },
-  // {
-  //   id: 3,
-  //   image: images.sunnysideImage,
-  //   heading: 'Sunnyside',
-  //   description: '<p>Simple frontendmentor.io challenge project! Also had a lot of fun working with the UI of this project.</p>',
-  //   websiteLink: 'https://sunny-page.netlify.app/',
-  //   githubLink: 'https://github.com/felixmacaspac/fem-sunnyside-landing-page',
-  //   // techno
-  //   html: true,
-  //   css: true,
-  //   javascript: true
-  // },
-  // {
-  //   id: 4,
-  //   image: images.catifyImage,
-  //   heading: 'Catify',
-  //   description:
-  //     '<p>Started this project way back 2020. One of my first project when I was self-studying front-end development.</p> <br/> <p>Fun fact: I had this project idea because of tinder lol! instead of <i>people</i> this website is for cats! </p>',
-  //   websiteLink: 'https://catify-app.netlify.app/',
-  //   githubLink: 'https://github.com/felixmacaspac/catify-landing-page',
-  //   // techno
-  //   html: true,
-  //   css: true,
-  //   javascript: true
-  // }
 ];
 
 const CardGrid = () => {
@@ -190,17 +163,6 @@ const CardGrid = () => {
                     </Tooltip>
                   </div>
                 )}
-                {proj.hubspot && (
-                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
-                    <img
-                      className="h-8 object-contain dark:filter dark:invert"
-                      src={images.hubspotLogo}
-                      alt="hubspot logo"
-                      width={32}
-                      height={32}
-                    />
-                  </div>
-                )}
                 {proj.tailwind && (
                   <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
                     <Tooltip title="Tailwind">
@@ -229,7 +191,7 @@ const CardGrid = () => {
                 )}
                 {proj.firebase && (
                   <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
-                    <Tooltip title="Firebase Cloud Messaging">
+                    <Tooltip title="Firebase">
                       <img
                         className="h-8 object-contain dark:filter dark:invert"
                         src={images.firebaseLogo}
@@ -260,6 +222,19 @@ const CardGrid = () => {
                         className="h-8 object-contain dark:filter dark:invert"
                         src={images.reduxLogo}
                         alt="redux logo"
+                        width={32}
+                        height={32}
+                      />
+                    </Tooltip>
+                  </div>
+                )}
+                {proj.chakra && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <Tooltip title="Chakra-UI">
+                      <img
+                        className="h-8 object-contain dark:filter dark:invert"
+                        src={images.chakraLogo}
+                        alt="chakra logo"
                         width={32}
                         height={32}
                       />
