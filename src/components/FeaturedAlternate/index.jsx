@@ -251,7 +251,7 @@ const CardGrid = () => {
               {proj.image.map((img, i) => (
                 <img
                   key={i}
-                  className="w-full rounded-lg filter shadow-lg object-contain h-auto"
+                  className="w-full rounded-lg filter shadow-lg object-contain h-auto mb-3"
                   loading="lazy"
                   width={684}
                   height={355}
