@@ -3,7 +3,7 @@ import images from '../../constants/image';
 import { GlobeAltIcon } from '@heroicons/react/outline';
 import RichText from '../RichText';
 import { motion } from 'framer-motion';
-import { Tooltip } from 'antd';
+import { Image, Tooltip } from 'antd';
 import { useTranslation } from 'react-i18next';
 
 const projects = [
@@ -249,12 +249,11 @@ const CardGrid = () => {
                 <div className="absolute bg-primary-400 animate-pulse w-full rounded-lg filter shadow-lg object-cover h-[340px]" />
               )}
               {proj.image.map((img, i) => (
-                <img
+                <Image
+                  style={{ width: '100%', maxWidth: '684px', maxHeight: '355px', objectFit: 'cover' }}
                   key={i}
                   className="w-full rounded-lg filter shadow-lg object-contain h-auto mb-3"
                   loading="lazy"
-                  width={684}
-                  height={355}
                   src={img}
                   alt={t(proj.heading)}
                   onLoad={() => setIsLoaded(true)}
