@@ -9,7 +9,8 @@ import { useTranslation } from 'react-i18next';
 const projects = [
   {
     id: 1,
-    image: images.eraImage,
+    image: [images.eraImage, images.eraAdminImage],
+
     heading: 'eraEducation',
     description: 'erades',
     websiteLink: 'https://era.edu.vn/',
@@ -21,7 +22,7 @@ const projects = [
   },
   {
     id: 2,
-    image: images.redditImage,
+    image: [images.redditImage],
     heading: 'Reddit Clone',
     description: 'redditDescription',
     websiteLink: 'https://reddit-one-rose.vercel.app/',
@@ -247,15 +248,18 @@ const CardGrid = () => {
               {!isLoaded && (
                 <div className="absolute bg-primary-400 animate-pulse w-full rounded-lg filter shadow-lg object-cover h-[340px]" />
               )}
-              <img
-                className="w-full rounded-lg filter shadow-lg object-contain h-auto"
-                loading="lazy"
-                width={684}
-                height={355}
-                src={proj.image}
-                alt={t(proj.heading)}
-                onLoad={() => setIsLoaded(true)}
-              />
+              {proj.image.map((img, i) => (
+                <img
+                  key={i}
+                  className="w-full rounded-lg filter shadow-lg object-contain h-auto"
+                  loading="lazy"
+                  width={684}
+                  height={355}
+                  src={img}
+                  alt={t(proj.heading)}
+                  onLoad={() => setIsLoaded(true)}
+                />
+              ))}
             </div>
           </motion.div>
         ))}

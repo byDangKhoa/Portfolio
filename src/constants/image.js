@@ -20,6 +20,7 @@ import khoaImageHor from '../assets/khoahor.jpg';
 import khoaImageVer from '../assets/khoaver.jpg';
 import bluecheckImage from '../assets/projects/bluecheck-visible.png';
 import eraImage from '../assets/projects/era.png';
+import eraAdminImage from '../assets/projects/eraadmin.png';
 import catifyImage from '../assets/projects/catify-visible.png';
 import shortlyImage from '../assets/projects/shortly-visible.png';
 import redditImage from '../assets/projects/reddit.png';
@@ -54,6 +55,7 @@ export default {
   khoaImageHor,
   khoaImageVer,
   eraImage,
+  eraAdminImage,
   antdLogo,
   firebaseLogo,
   i18nLogo,

@@ -14,7 +14,7 @@
   "techused": "Technologies used",
   "des1": "Developed web application using ReactJs, NextJs",
   "des2": "Maintenance and troubleshooting of client's websites to ensure smooth performance and user satisfaction",
-  "erades": "<Also>My first real project.<p/> <br/> <p>I learnt alot from this project. I also worked in a team and knew how to communicate with backend developers.</p>",
+  "erades": "<Also>My first real project.<p/> <br/> <p>I learnt alot from this project. I also worked in a team and knew how to communicate with backend developers.</p> <br/> <p>Consumer Website: Display UI and data from API.</p> <br/> <p>Admin Portal: perform CRUD operations and create forms for administrators to input their data to consumer website.",
   "eraEducation": "Era Education",
   "redditDescription": "A simple clone of reddit page, using typescript and chakra-ui to build"
 }
