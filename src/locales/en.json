@@ -16,5 +16,5 @@
   "des2": "Maintenance and troubleshooting of client's websites to ensure smooth performance and user satisfaction",
   "erades": "<p>Consumer Website: Build UI + get data from API and develop web features such as do exercise, advisory, e-commerce, news, education videos, mini-games...</p> <br/> <p>Admin Portal: perform CRUD operations and add related functions for administrators to input their data to consumer website as required.",
   "eraEducation": "Era Education",
-  "redditDescription": "A simple clone of reddit page, using typescript and chakra-ui to build"
+  "redditDescription": "<p>A simple clone of reddit page, using typescript and chakra-ui to build</p> <br/><p>Primary function : basic/google authenticaion, create community/post/comment, upload image</p> "
 }

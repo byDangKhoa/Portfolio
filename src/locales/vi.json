@@ -16,5 +16,5 @@
   "des2": "Bảo trì, sửa chữa cũng như cập nhật các tính năng theo yêu cầu của khách hàng",
   "erades": "<p>Consumer Website: Xây dựng UI từ + trích xuất dữ liệu từ API và phát triển các chức năng của web như làm bài tập, trang tư vấn, hệ thống bán hàng, đọc tin tức, xem videos, mini-games...</p> <br/> <p>Admin Portal: Tạo các form thêm/xoá/sửa và các chức năng liên quan của web consumer theo yêu cầu của khách hàng.",
   "eraEducation": "Giáo dục Era",
-  "redditDescription": "1 bản sao được đơn giản hoá của reddit, build chủ yếu bằng typescript và chakra-ui"
+  "redditDescription": "<p>1 bản sao được đơn giản hoá của reddit, build chủ yếu bằng typescript và chakra-ui</p> <br/><p>Chức năng chính : Đăng nhập bằng google/username, tạo community/post/comment, upload hình ảnh</p> "
 }
