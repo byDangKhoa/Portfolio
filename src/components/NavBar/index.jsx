@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import images from '../../constants/image';
 import { Fragment } from 'react';
 import { Popover, Transition, Dialog } from '@headlessui/react';
@@ -33,17 +33,6 @@ export default function NavBar() {
   const [darkTheme, setDarkTheme] = useDarkMode();
   const handleMode = () => setDarkTheme(!darkTheme);
   const { t } = useTranslation();
-
-  const [addBlur, setAddBlur] = useState(false);
-
-  useEffect(() => {
-    if (window.scrollY >= 100) {
-      setAddBlur(true);
-    } else {
-      setAddBlur(false);
-    }
-  }, [window.scrollY]);
-
   const [modalIsOpen, modalSetItOpen] = useState(false);
   const toggleModal = () => {
     modalSetItOpen(!modalIsOpen);
@@ -52,7 +41,7 @@ export default function NavBar() {
   // TODO: make the dark mode as the default theme.
 
   return (
-    <Popover className={` ${addBlur && 'drop-shadow-lg backdrop-blur-md '} fixed top-0 w-full z-[100] transition-all duration-300`}>
+    <Popover className={` drop-shadow-lg  backdrop-blur-md fixed top-0 w-full z-[100] transition-all duration-300`}>
       <motion.div
         viewport={{ once: true }}
         initial={{ opacity: 0, y: 10 }}
