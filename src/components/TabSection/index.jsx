@@ -1,10 +1,9 @@
+import { motion } from 'framer-motion';
 import React, { useState } from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { useTranslation } from 'react-i18next';
+import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import images from '../../constants/image';
-import { ExternalLinkIcon } from '@heroicons/react/solid';
-import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
 const logos = [
   {
     image: images.htmlLogo,
@@ -23,8 +22,8 @@ const logos = [
     title: 'Git'
   },
   {
-    image: images.githubLogo,
-    title: 'Github'
+    image: images.typescriptLogo,
+    title: 'Typescript'
   },
   {
     image: images.reactLogo,

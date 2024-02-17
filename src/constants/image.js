@@ -19,12 +19,14 @@ import reduxLogo from '../assets/logo/redux-logo.svg';
 import tailwindLogo from '../assets/logo/tailwind-logo.svg';
 
 import eraImage from '../assets/projects/era.png';
+import tcvnImage from '../assets/projects/tcvn.png';
 import eraAdminImage from '../assets/projects/eraadmin.png';
 
 import redditImage from '../assets/projects/reddit.png';
 
 import brandLogoDark from '../assets/icons/logo-dark.png';
 import brandLogoLight from '../assets/icons/logo-light.png';
+import typescriptLogo from '../assets/logo/typescript-logo.png';
 
 export default {
   emailIcon,
@@ -50,5 +52,7 @@ export default {
   i18nLogo,
   reduxLogo,
   redditImage,
-  chakraLogo
+  chakraLogo,
+  typescriptLogo,
+  tcvnImage
 };

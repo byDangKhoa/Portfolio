@@ -22,6 +22,20 @@ const projects = [
   },
   {
     id: 2,
+    image: [images.tcvnImage],
+
+    heading: 'TradeCoinVN',
+    description: 'tcvn',
+    websiteLink: 'https://tradecoinvn.com/',
+    nextjs: true,
+    antd: true,
+    firebase: true,
+    typescript: true,
+    tailwind: true,
+    typescript: true
+  },
+  {
+    id: 3,
     image: [images.redditImage],
     heading: 'Reddit Clone',
     description: 'redditDescription',
@@ -236,6 +250,19 @@ const CardGrid = () => {
                         className="h-8 object-contain dark:filter dark:invert"
                         src={images.chakraLogo}
                         alt="chakra logo"
+                        width={32}
+                        height={32}
+                      />
+                    </Tooltip>
+                  </div>
+                )}
+                {proj.typescript && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <Tooltip title="Typescript">
+                      <img
+                        className="h-8 object-contain dark:filter dark:invert"
+                        src={images.typescriptLogo}
+                        alt="typescript logo"
                         width={32}
                         height={32}
                       />

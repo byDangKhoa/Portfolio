@@ -5,6 +5,7 @@
   "experience": "Kinh nghiệm",
   "projects": "Dự án",
   "iam": "Tôi là",
+  "tcvn": "TradeCoin Việt Nam một cộng đồng về. Cryptocurrency! Hướng dẫn, hỗ trợ các trader và nhà đầu tư.",
   "knowme": "Giới thiệu",
   "skills": "Kĩ năng",
   "frontend": "Lập trình viên Frontend",
@@ -14,6 +15,8 @@
   "skillDescription": "Tôi là lập trình viên Front-end có 1 năm kinh nghiệm phát triển responsive và user-friendly web và web-app.Tôi cũng có khả năng fix bug cũng như bảo trì những dự án được giao và sử dụng các công nghệ mới như Tailwindcss, NextJs, Antd... để đem đến cho khách hàng những trải nghiệm tốt nhất. Tôi luôn hoàn thành tốt các task được giao dù là làm việc độc lập hay làm theo team.",
   "des1": "Phát triển trang web sử dụng Reactjs và NextJs",
   "des2": "Bảo trì, sửa chữa cũng như cập nhật các tính năng theo yêu cầu của khách hàng",
+  "tcvn-des1": "Xây dựng trang web của công ty sử dụng NextJs hỗ trợ SEO",
+  "tcvn-des2": "Xây dựng admin panel để user có thể thiết lập các tính năng cơ bản, cập nhật các tính năng và bài viết",
   "erades": "<p>Consumer Website: Xây dựng UI từ + trích xuất dữ liệu từ API và phát triển các chức năng của web như làm bài tập, trang tư vấn, hệ thống bán hàng, đọc tin tức, xem videos, mini-games...</p> <br/> <p>Admin Portal: Tạo các form thêm/xoá/sửa và các chức năng liên quan của web consumer theo yêu cầu của khách hàng.",
   "eraEducation": "Giáo dục Era",
   "redditDescription": "<p>1 bản sao được đơn giản hoá của reddit, build chủ yếu bằng typescript và chakra-ui</p> <br/><p>Chức năng chính : Đăng nhập bằng google/username, tạo community/post/comment, upload hình ảnh</p> "
